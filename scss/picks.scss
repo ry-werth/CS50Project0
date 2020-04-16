@@ -1,0 +1,55 @@
+// styling for the picks specifcs
+$light-grey: #e3e3e3;
+.picks {
+    .daily-picks {
+        background: $light-grey;
+        margin: 80px auto;
+        .row {
+            padding-top: 40px;
+            padding-bottom:40px;
+
+            .well {
+                width: 50%;
+                margin: 0 auto;
+                padding: 10px;
+                border: solid 1px black;
+                border-radius: 5px;
+                text-align: center;
+                background: white;
+            }
+            p {
+                width: 90%;
+                margin:20px 0;
+               &.left {
+                    margin-left: 8%;
+                }
+                &.center {
+                    margin: 20px auto;
+                }
+                &.right {
+                    margin-right: 8%;
+                }
+            }
+
+            .list-group {
+                width: 94%;
+                &.left {
+                    margin-left: 6%;
+                }
+                &.center {
+                    margin: 0 auto;
+                }
+                &.right {
+                    margin-right: 6%;
+                }
+
+                li {
+                }
+
+                .pct-change {
+                    float: right;
+                }
+            }
+        }
+    }
+}

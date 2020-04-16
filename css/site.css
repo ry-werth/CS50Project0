@@ -1,0 +1,21 @@
+header {
+  width: 100%;
+  height: 50px;
+  background: #e3e3e3;
+  padding: 7px 15%; }
+  header .my-site {
+    float: left; }
+  header .header-right {
+    float: right; }
+
+body {
+  width: 100%;
+  background: #b3ffb3; }
+  body section {
+    margin: 0 auto;
+    max-width: 1340px; }
+  body .page-title h1, body .page-title h2 {
+    text-align: center;
+    margin: 20px; }
+
+/*# sourceMappingURL=site.css.map */

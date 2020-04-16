@@ -1,0 +1,37 @@
+$light-grey: #e3e3e3;
+$dark-grey: #adadad;
+$mid-blue: #4d94ff;
+$body-bg: #b3ffb3;
+
+header {
+    width: 100%;
+    height: 50px;
+    background: $light-grey;
+    padding: 7px 15%;
+
+    .my-site {
+        float: left;
+    }
+
+    .header-right {
+        float: right;
+    }
+}
+
+body {
+    width: 100%;
+    background: $body-bg;
+
+    section {
+        margin: 0 auto;
+        max-width: 1340px;
+    }
+
+    .page-title {
+        h1, h2 {
+            text-align: center;
+            margin: 20px;
+        }
+    }
+}
+

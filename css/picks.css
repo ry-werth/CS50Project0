@@ -1,0 +1,35 @@
+.picks .daily-picks {
+  background: #e3e3e3;
+  margin: 80px auto; }
+  .picks .daily-picks .row {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .picks .daily-picks .row .well {
+      width: 50%;
+      margin: 0 auto;
+      padding: 10px;
+      border: solid 1px black;
+      border-radius: 5px;
+      text-align: center;
+      background: white; }
+    .picks .daily-picks .row p {
+      width: 90%;
+      margin: 20px 0; }
+      .picks .daily-picks .row p.left {
+        margin-left: 8%; }
+      .picks .daily-picks .row p.center {
+        margin: 20px auto; }
+      .picks .daily-picks .row p.right {
+        margin-right: 8%; }
+    .picks .daily-picks .row .list-group {
+      width: 94%; }
+      .picks .daily-picks .row .list-group.left {
+        margin-left: 6%; }
+      .picks .daily-picks .row .list-group.center {
+        margin: 0 auto; }
+      .picks .daily-picks .row .list-group.right {
+        margin-right: 6%; }
+      .picks .daily-picks .row .list-group .pct-change {
+        float: right; }
+
+/*# sourceMappingURL=picks.css.map */
